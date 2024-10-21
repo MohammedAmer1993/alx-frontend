@@ -201,3 +201,6 @@ ul.row {
 	background-color: var(--color-black);
 }
 
+.footer-address {
+	color: var(--text-color);
+}
