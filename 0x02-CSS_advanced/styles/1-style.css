@@ -1,1 +1,5 @@
-/* comment in css */
+/* scrolling in html */
+
+html {
+	scroll-behavior: smooth;
+}
