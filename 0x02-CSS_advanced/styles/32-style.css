@@ -357,6 +357,7 @@ ul.row {
 
 .card-work:hover .card-image {
 	transform: scale(1.2);
+	transition: transform var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work .card-inner {
@@ -370,7 +371,6 @@ ul.row {
 
 .card-work:hover .card-inner {
 	background-color: rgba(0, 0, 0, 0.7);
-	transition: transform var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work .card-title {
