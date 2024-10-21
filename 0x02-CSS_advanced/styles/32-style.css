@@ -111,7 +111,7 @@ a:active {
 	text-decoration: var(--button-hover-text-decoration);
 	background: var(--button-hover-background);
 	transition-duration: var(--transition-duration);
-	transition-property: color, background;
+	transition-property: color, background-color;
 }
 
 .visually-hidden {
@@ -370,7 +370,7 @@ ul.row {
 
 .card-work:hover .card-inner {
 	background-color: rgba(0, 0, 0, 0.7);
-	transition: var(--transition-duration) var(--transition-cubic-bezier);
+	transition: transform var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work .card-title {
